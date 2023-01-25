@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/diameter/Pictures/walls/wallhaven-yx81vk_3060x2048.png' '/home/diameter/Pictures/walls/wallhaven-gp8pdq_3840x2160.png' 

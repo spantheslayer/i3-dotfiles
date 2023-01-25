@@ -40,7 +40,7 @@ alias dvls='docker volume ls'
 alias di='docker images'
 
 # dotfile alias
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Random color scheme generator
 colorscript -r

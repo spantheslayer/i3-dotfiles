@@ -1,0 +1,38 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+
+# Colors 
+import:
+  - ~/.config/alacritty/colors/themes/breeze.yaml
+  - ~/.config/alacritty/fonts.yml 
+
+## Set environment variables
+env:
+  TERM: alacritty
+  WINIT_X11_SCALE_FACTOR: '1.0'
+
+window:
+  # Background opacity
+  opacity: 1.0
+  padding:
+    x: 10
+    y: 10
+
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+cursor:
+  style: 
+    shape: Beam
+    blinking: Always
+  thickness: 0.15
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  unfocused_hollow: true
+
+# dynamic_title: false
+
+# Live config reload (changes require restart)
+live_config_reload: true
+

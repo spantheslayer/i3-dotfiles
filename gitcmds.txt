@@ -1,0 +1,11 @@
+ggl  - git pull origin $(current_branch)
+gp   - git push
+ggp  - git push origin $(current_branch)
+gco  - git checkout
+gcsm - git commit -s -m
+ga   - git add
+gb   - git branch
+gcb  - git checkout -b
+gl   - git pull
+glgg - git log --graph
+glgga - git log --graph --decorate --all

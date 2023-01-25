@@ -1,0 +1,11 @@
+[user]
+	email = supriyosarkar282@gmail.com
+	name = spantheslayer
+	signinkey = signinkey
+	signingkey = signingkey
+[tag]
+	gpgSign = true
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
